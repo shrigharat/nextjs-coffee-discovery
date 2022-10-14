@@ -1,0 +1,88 @@
+.infoContainer {
+  width: 80%;
+  height: 70%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(112, 58, 8, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.storeImage {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+
+.storeImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  width: 50%;
+  height: 100%;
+}
+
+
+.detailRow {
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.chipList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  padding: 0.5rem 0.8rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .infoContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .storeImage {
+    width: 100%;
+    height: 50%;
+  }
+  .content{
+    width: 100%;
+    height: 50%;
+  }
+  .content h2{
+    margin: .4rem 0;
+  }
+  .content p{
+    margin: .4rem 0;
+  }
+}
+@media (max-width: 420px) {
+  .infoContainer {
+    width: 90%;
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "title": "Tiny Beans Store",
+    "link": "/coffee-store/dark-horse",
+    "imgUrl": "https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 1,
+    "title": "The Centro Brewery",
+    "link": "/coffee-store/the-brewery",
+    "imgUrl": "https://images.pexels.com/photos/887723/pexels-photo-887723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 2,
+    "title": "Los Fotios",
+    "link": "/coffee-store/cafe-coffee-day",
+    "imgUrl": "https://images.pexels.com/photos/2253643/pexels-photo-2253643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 3,
+    "title": "Coffia Arabica",
+    "link": "/coffee-store/cafe-coffee-day",
+    "imgUrl": "https://images.pexels.com/photos/1402407/pexels-photo-1402407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 4,
+    "title": "Rio Coffee",
+    "link": "/coffee-store/cafe-coffee-day",
+    "imgUrl": "https://images.pexels.com/photos/799869/pexels-photo-799869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 5,
+    "title": "Adocicadas Brewery",
+    "link": "/coffee-store/cafe-coffee-day",
+    "imgUrl": "https://images.pexels.com/photos/3465604/pexels-photo-3465604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
